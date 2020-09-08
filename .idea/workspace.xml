@@ -1,26 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:master" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="7b021482-36bd-42d4-a61c-78f563bf2666" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/crudNodeApp.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jsLinters/eslint.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations/bin_www.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/www" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/queries.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/stylesheets/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/routes/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/routes/users.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/error.pug" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/index.pug" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/layout.pug" afterDir="false" />
+    <list default="true" id="7b021482-36bd-42d4-a61c-78f563bf2666" name="Default Changelist" comment="CRUD API">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/queries.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/queries.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +61,8 @@
     <property name="node.js.selected.package.standard" value="" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="settings.javascript.linters.eslint" />
+    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
+    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -80,8 +79,31 @@
       <updated>1597053893530</updated>
       <workItem from="1597053894559" duration="10813000" />
       <workItem from="1597070342528" duration="551000" />
-      <workItem from="1597132640863" duration="11131000" />
+      <workItem from="1597132640863" duration="12472000" />
+      <workItem from="1597215191770" duration="1325000" />
+      <workItem from="1597237979388" duration="1217000" />
+      <workItem from="1597300431592" duration="885000" />
+      <workItem from="1597303828444" duration="632000" />
+      <workItem from="1597311309185" duration="1214000" />
+      <workItem from="1597387844784" duration="1223000" />
+      <workItem from="1599458888095" duration="18000" />
+      <workItem from="1599459218072" duration="680000" />
+      <workItem from="1599461249497" duration="1000" />
+      <workItem from="1599462878740" duration="634000" />
+      <workItem from="1599464537205" duration="1823000" />
+      <workItem from="1599469770538" duration="831000" />
+      <workItem from="1599471013706" duration="603000" />
+      <workItem from="1599551562303" duration="610000" />
+      <workItem from="1599553615555" duration="853000" />
     </task>
+    <task id="LOCAL-00001" summary="CRUD API">
+      <created>1597154808629</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1597154808629</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -109,36 +131,50 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="CRUD API" />
+    <option name="LAST_COMMIT_MESSAGE" value="CRUD API" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="750" y="286" key="FileChooserDialogImpl" timestamp="1597154209879">
+    <state x="750" y="286" key="FileChooserDialogImpl" timestamp="1599459295972">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="750" y="286" key="FileChooserDialogImpl/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1597154209879" />
-    <state width="1561" height="252" key="GridCell.Tab.0.bottom" timestamp="1597154564819">
+    <state x="750" y="286" key="FileChooserDialogImpl/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1597387854403" />
+    <state x="750" y="286" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1599459295972" />
+    <state width="1561" height="252" key="GridCell.Tab.0.bottom" timestamp="1599470643773">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1561" height="252" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1597154564819" />
-    <state width="1561" height="252" key="GridCell.Tab.0.center" timestamp="1597154564819">
+    <state width="1561" height="252" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1597401135102" />
+    <state width="1561" height="252" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1599470643773" />
+    <state width="1561" height="252" key="GridCell.Tab.0.center" timestamp="1599470643773">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1561" height="252" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1597154564819" />
-    <state width="1561" height="252" key="GridCell.Tab.0.left" timestamp="1597154564819">
+    <state width="1561" height="252" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1597401135102" />
+    <state width="1561" height="252" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1599470643773" />
+    <state width="1561" height="252" key="GridCell.Tab.0.left" timestamp="1599470643772">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1561" height="252" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1597154564819" />
-    <state width="1561" height="252" key="GridCell.Tab.0.right" timestamp="1597154564819">
+    <state width="1561" height="252" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1597401135101" />
+    <state width="1561" height="252" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1599470643772" />
+    <state width="1561" height="252" key="GridCell.Tab.0.right" timestamp="1599470643773">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1561" height="252" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1597154564819" />
+    <state width="1561" height="252" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1597401135102" />
+    <state width="1561" height="252" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1599470643773" />
     <state x="707" y="233" key="RollbackChangesDialog" timestamp="1597154683391">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="707" y="233" key="RollbackChangesDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1597154683391" />
-    <state x="372" y="176" key="SettingsEditor" timestamp="1597066153250">
+    <state x="372" y="176" key="SettingsEditor" timestamp="1597155005109">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="372" y="176" key="SettingsEditor/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1597066153250" />
+    <state x="372" y="176" key="SettingsEditor/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1597155005109" />
+    <state x="562" y="264" key="Vcs.Push.Dialog.v2" timestamp="1597155031454">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="562" y="264" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1597155031454" />
     <state x="772" y="437" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1597154255257">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
